@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.hankkin.baidugoingrefreshlayout.MainActivity">
 
-    <com.hankkin.baidugoingrefreshlayout.BaiDuRefreshListView
+    <com.hankkin.baidugoingrefreshlayout.widget.BaiDuRefreshListView
         android:id="@+id/lv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
