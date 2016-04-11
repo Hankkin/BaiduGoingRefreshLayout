@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 
+import com.hankkin.baidugoingrefreshlayout.widget.BaiDuRefreshListView;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
