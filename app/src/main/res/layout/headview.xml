@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/iv_back1"
+        android:src="@drawable/pull_back"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:id="@+id/iv_back2"
+        android:src="@drawable/pull_back"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="45dp"
+            android:id="@+id/iv_rider"
+            android:background="@drawable/pull_rider"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:id="@+id/wheel1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/pull_wheel"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+        <ImageView
+            android:id="@+id/wheel2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/pull_wheel"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/ivsun"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/main"
+        android:background="@drawable/pull_sun"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+</RelativeLayout>
