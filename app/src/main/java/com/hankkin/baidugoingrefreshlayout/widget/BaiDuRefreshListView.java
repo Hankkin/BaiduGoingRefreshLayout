@@ -1,20 +1,11 @@
 package com.hankkin.baidugoingrefreshlayout.widget;
 
-import android.view.ViewConfiguration;
-import android.widget.AbsListView;
-import android.widget.ListView;
-
 import android.content.Context;
 import android.util.AttributeSet;
-import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import com.hankkin.baidugoingrefreshlayout.R;
+import android.view.ViewConfiguration;
+import android.widget.ListView;
 import com.hankkin.baidugoingrefreshlayout.interfaces.PtrHeader;
 import com.hankkin.baidugoingrefreshlayout.widget.config.RefreshState;
 
