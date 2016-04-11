@@ -11,7 +11,6 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements BaiDuRefreshListView.OnBaiduRefreshListener{
 
-
     private BaiDuRefreshListView mListView;
     private List<String> mDatas;
     private ArrayAdapter<String> mAdapter;
