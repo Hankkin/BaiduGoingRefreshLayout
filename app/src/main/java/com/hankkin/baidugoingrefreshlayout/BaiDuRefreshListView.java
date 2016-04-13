@@ -1,5 +1,6 @@
 package com.hankkin.baidugoingrefreshlayout;
 
+import android.view.animation.LinearInterpolator;
 import android.widget.AbsListView;
 import android.widget.ListView;
 
@@ -103,6 +104,9 @@ public class BaiDuRefreshListView extends ListView implements AbsListView.OnScro
         //获取动画
         wheelAnimation = AnimationUtils.loadAnimation(context, R.anim.tip);
         sunAnimation = AnimationUtils.loadAnimation(context, R.anim.tip1);
+        LinearInterpolator lir = new LinearInterpolator();
+        wheelAnimation.setInterpolator(lir);
+        sunAnimation.setInterpolator(lir);
 
         backAnimation1 = AnimationUtils.loadAnimation(context, R.anim.a);
         backAnimation2 = AnimationUtils.loadAnimation(context, R.anim.b);
