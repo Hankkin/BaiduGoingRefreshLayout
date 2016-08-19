@@ -129,7 +129,7 @@ public class BaiDuRefreshListView extends ListView implements AbsListView.OnScro
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
         if (isEnd) {//如果现在时结束的状态，即刷新完毕了，可以再次刷新了，在onRefreshComplete中设置
-            if (isRefreable) {//如果现在是可刷新状态   在setOnMeiTuanListener中设置为true
+            if (isRefreable) {//如果现在是可刷新状态   在setOnBaiduRefreshListener中设置为true
                 switch (ev.getAction()){
                     //用户按下
                     case MotionEvent.ACTION_DOWN:
